@@ -27,7 +27,7 @@ $(function() {
                 var price = $(this).attr('id');
                 var itemcode = $(this).attr('itemcode');
                 var itemsname = $(this).attr('label');
-                $.post("http://Codem-Market/itemdata", JSON.stringify({
+                $.post("http://Codem-Market2/itemdata", JSON.stringify({
                     price: price,
                     itemcode: itemcode,
                     itemsname: itemsname
@@ -41,7 +41,7 @@ $(function() {
 $(document).keydown(function(e) {
     if (e.keyCode == 27) {
         $('.anasayfa').hide();
-        $.post('http://Codem-Market/escape');
+        $.post('http://Codem-Market2/escape');
         document.querySelectorAll(".card").forEach(function(a) { a.remove() })
     }
 });
