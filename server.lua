@@ -1,4 +1,7 @@
-
+-- Codem Store  https://discord.gg/zj3QsUfxWs
+-- Codem Store  https://discord.gg/zj3QsUfxWs
+-- Codem Store  https://discord.gg/zj3QsUfxWs
+-- Codem Store  https://discord.gg/zj3QsUfxWs
 
 ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
